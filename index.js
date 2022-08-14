@@ -23,6 +23,6 @@ app.get("/download", (req, res) => {
 
   // res.json({ url: URL });
 });
-app.listen(4000, function () {
-  console.log("Server works at port http://localhost:4000");
+app.listen(port, function () {
+  console.log(`Server works at port http://localhost:${port}`);
 });
